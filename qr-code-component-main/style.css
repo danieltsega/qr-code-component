@@ -28,6 +28,8 @@ body {
   text-align: center;
   align-items: center;
   border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 .img img {
   width: 270px;
@@ -49,4 +51,7 @@ body {
   margin-top: 8px;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
+}
+.attribution {
+  margin-top: 12px;
 }
